@@ -1,0 +1,6 @@
+{
+  "name": "Satish Furniture & Door House",
+  "description": "Premium furniture and door showroom in Bhopal, Madhya Pradesh. Explore handcrafted living room, bedroom, dining sets and designer wooden doors on Kolar Road.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

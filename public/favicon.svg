@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="goldWood" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EAD1B2" />
+      <stop offset="45%" stop-color="#C59C7B" />
+      <stop offset="100%" stop-color="#8F5D48" />
+    </linearGradient>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#241F1C" />
+      <stop offset="100%" stop-color="#141210" />
+    </linearGradient>
+  </defs>
+  <!-- Background with subtle border -->
+  <rect width="128" height="128" rx="26" fill="url(#bgGrad)" stroke="#4A3D34" stroke-width="3" />
+  
+  <!-- Architectural Classical Doorway Arch -->
+  <path d="M36 102 V52 A28 28 0 0 1 92 52 V102" fill="none" stroke="url(#goldWood)" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round" />
+  
+  <!-- Door Threshold Base -->
+  <line x1="30" y1="102" x2="98" y2="102" stroke="url(#goldWood)" stroke-width="6" stroke-linecap="round" />
+  
+  <!-- Stylized Elegant "S" Monogram inside the doorway -->
+  <path d="M72 44 C66 38, 54 38, 50 45 C45 53, 55 60, 65 64 C77 69, 81 77, 77 86 C73 94, 57 95, 49 87" fill="none" stroke="url(#goldWood)" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round" />
+  
+  <!-- Keystone / Finial Accent at top of Arch -->
+  <circle cx="64" cy="22" r="4.5" fill="url(#goldWood)" />
+</svg>
