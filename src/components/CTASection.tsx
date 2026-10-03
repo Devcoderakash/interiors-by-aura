@@ -17,7 +17,7 @@ export const CTASection: React.FC = () => {
         </div>
 
         <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-white leading-tight">
-          Looking for Furniture or Doors?
+          Looking for PVC Doors or Furniture?
         </h2>
 
         <p className="text-base sm:text-lg text-[#C7BCB0] max-w-2xl mx-auto leading-relaxed">

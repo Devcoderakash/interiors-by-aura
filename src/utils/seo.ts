@@ -12,8 +12,8 @@ export interface RouteSEO {
 
 export const SEO_DATA: Record<ActivePage | '404', RouteSEO> = {
   home: {
-    title: `${business.name} | Furniture & Doors in Bhopal`,
-    description: `Explore quality furniture and stylish door solutions from ${business.name} in Bhopal. Discover handcrafted sofas, beds, dining sets and wooden doors on Kolar Road.`,
+    title: `PVC Doors & Furniture | Premium PVC Door Designs in Bhopal | pvcdoor.shop`,
+    description: `Explore premium PVC doors, wooden door designs and quality furniture at Satish Furniture & Door House in Bhopal. PVC door solutions for homes and offices in Bhopal.`,
     path: '/',
     canonical: `${business.siteUrl}/`,
     ogImage: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80",
@@ -22,30 +22,30 @@ export const SEO_DATA: Record<ActivePage | '404', RouteSEO> = {
     ]
   },
   products: {
-    title: `Furniture & Door Collection | ${business.name} Bhopal`,
-    description: `Browse contemporary living room, bedroom, dining, and storage furniture at ${business.name} in Bhopal. Custom sizing and solid wood finishes available.`,
+    title: `Furniture & Door Collection | PVC Doors & Wooden Furniture in Bhopal`,
+    description: `Browse PVC doors, wooden doors and quality furniture at Satish Furniture & Door House in Bhopal. Custom sizes, solid wood and PVC door designs available.`,
     path: '/products',
     canonical: `${business.siteUrl}/products`,
     ogImage: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1200&q=80",
     breadcrumbs: [
       { name: "Home", url: `${business.siteUrl}/` },
-      { name: "Furniture Collection", url: `${business.siteUrl}/products` }
+      { name: "Furniture & Door Collection", url: `${business.siteUrl}/products` }
     ]
   },
   doors: {
-    title: `Wooden Door Designs & Sizing | ${business.name} Bhopal`,
-    description: `Explore solid teak wood main entrance doors, modern fluted doors, and interior room door solutions at ${business.name}, Kolar Road, Bhopal.`,
+    title: `PVC Doors & Wooden Door Designs | PVC Door Supplier in Bhopal`,
+    description: `Discover premium PVC door designs, wooden main entrance doors and interior door solutions in Bhopal. PVC doors for homes and offices at Satish Furniture & Door House.`,
     path: '/doors',
     canonical: `${business.siteUrl}/doors`,
     ogImage: "/images/doors/door_teak_carved.jpg",
     breadcrumbs: [
       { name: "Home", url: `${business.siteUrl}/` },
-      { name: "Doors", url: `${business.siteUrl}/doors` }
+      { name: "PVC Doors & Door Designs", url: `${business.siteUrl}/doors` }
     ]
   },
   about: {
-    title: `About Our Bhopal Showroom | ${business.name}`,
-    description: `Learn about ${business.name} on Kolar Road, Bhopal. Trusted showroom providing handcrafted solid wood furniture, transparent materials, and local customer care.`,
+    title: `About Satish Furniture & Door House | PVC Door Showroom in Bhopal`,
+    description: `Learn about Satish Furniture & Door House — your trusted PVC door and furniture showroom on Kolar Road, Bhopal. Quality doors, transparent service, local expertise.`,
     path: '/about',
     canonical: `${business.siteUrl}/about`,
     ogImage: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80",
@@ -55,8 +55,8 @@ export const SEO_DATA: Record<ActivePage | '404', RouteSEO> = {
     ]
   },
   gallery: {
-    title: `Showroom Gallery & Finishes | ${business.name} Bhopal`,
-    description: `View photos of handcrafted living room setups, solid wood entrance doors, and natural timber polish finishes at ${business.name} in Bhopal.`,
+    title: `PVC Door & Furniture Gallery | Showroom Photos | Satish Furniture Bhopal`,
+    description: `View our showroom gallery featuring PVC door designs, wooden entrance doors and furniture setups from Satish Furniture & Door House in Bhopal.`,
     path: '/gallery',
     canonical: `${business.siteUrl}/gallery`,
     ogImage: "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=1200&q=80",
@@ -66,8 +66,8 @@ export const SEO_DATA: Record<ActivePage | '404', RouteSEO> = {
     ]
   },
   contact: {
-    title: `Contact Showroom & Location | ${business.name} Bhopal`,
-    description: `Visit ${business.name} showroom in Bairagarh Chichali, Kolar Road, Bhopal. Open 7 days a week. Connect via WhatsApp or call for directions and catalogue enquiries.`,
+    title: `Contact & Location | PVC Door & Furniture Showroom | Bhopal`,
+    description: `Visit Satish Furniture & Door House for PVC door enquiries, wooden door designs and furniture in Bhopal. Showroom on Kolar Road — open all 7 days. Call or WhatsApp now.`,
     path: '/contact',
     canonical: `${business.siteUrl}/contact`,
     ogImage: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80",
@@ -77,8 +77,8 @@ export const SEO_DATA: Record<ActivePage | '404', RouteSEO> = {
     ]
   },
   '404': {
-    title: `Page Not Found | ${business.name} Bhopal`,
-    description: `The page you requested could not be found. Explore furniture and door designs at ${business.name} on Kolar Road, Bhopal.`,
+    title: `Page Not Found | Satish Furniture & Door House Bhopal`,
+    description: `The page you requested could not be found. Explore PVC doors, door designs and furniture at Satish Furniture & Door House, Kolar Road, Bhopal.`,
     path: '/404',
     canonical: `${business.siteUrl}/404`,
     breadcrumbs: [

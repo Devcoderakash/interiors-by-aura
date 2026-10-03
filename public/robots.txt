@@ -4,4 +4,4 @@ Disallow: /admin/
 Disallow: /private/
 Disallow: /*?*
 
-Sitemap: https://satish-furniture.web.app/sitemap.xml
+Sitemap: https://pvcdoor.shop/sitemap.xml

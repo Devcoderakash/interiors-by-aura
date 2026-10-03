@@ -18,13 +18,13 @@ export const DoorCollection: React.FC<DoorCollectionProps> = ({ onExploreDoorsCl
           <div className="space-y-2.5 max-w-2xl">
             <div className="inline-flex items-center gap-2 text-xs uppercase tracking-[0.2em] font-semibold text-[#704834]">
               <DoorClosed className="w-4 h-4 text-[#9B5D43]" />
-              <span>Dedicated Door House</span>
+              <span>PVC Doors &amp; Wooden Door House</span>
             </div>
             <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-[#1C1917] tracking-tight">
-              Make a Strong First Impression.
+              Premium PVC Doors &amp; Wooden Doors in Bhopal.
             </h2>
             <p className="text-sm sm:text-base text-[#57534E]">
-              Discover door designs that add warmth, character and elegance to your space.
+              Explore PVC door designs and solid wooden doors that add warmth, character and elegance to your home or office in Bhopal.
             </p>
           </div>
 
@@ -61,7 +61,7 @@ export const DoorCollection: React.FC<DoorCollectionProps> = ({ onExploreDoorsCl
               <div className="relative aspect-3/4 overflow-hidden bg-[#E7E1D8]">
                 <img
                   src={door.image}
-                  alt={`${door.name} - Satish Furniture & Door House`}
+                  alt={`${door.name} - PVC door design at Satish Furniture & Door House, Bhopal`}
                   className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
                   loading="lazy"
                   onError={handleImageError}

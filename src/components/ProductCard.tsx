@@ -19,7 +19,9 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, onQuickView }
       <div className="relative aspect-4/3 overflow-hidden bg-[#EAE4DC]">
         <img
           src={product.image}
-          alt={`${product.name} - ${product.category} at Satish Furniture Bhopal`}
+          alt={product.category === 'Doors'
+            ? `${product.name} - PVC door design at Satish Furniture, Bhopal`
+            : `${product.name} - ${product.category} at Satish Furniture Bhopal`}
           className="w-full h-full object-cover object-center group-hover:scale-104 transition-transform duration-500"
           loading="lazy"
           onError={handleImageError}

@@ -29,17 +29,17 @@ export const Hero: React.FC<HeroProps> = ({
             {/* Small eyebrow */}
             <div className="inline-flex items-center gap-2 px-3 py-1 bg-[#F1ECE3] border border-[#DDD3C3] text-[#704834] rounded-full text-xs uppercase tracking-[0.2em] font-semibold">
               <span className="w-1.5 h-1.5 rounded-full bg-[#9B5D43]"></span>
-              <span>FURNITURE • DOORS • HOME INTERIORS</span>
+              <span>PVC DOORS • WOODEN DOORS • FURNITURE</span>
             </div>
 
             {/* Main Heading */}
             <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-[54px] font-bold text-[#1C1917] leading-[1.12] tracking-tight">
-              Furniture That Makes Your Space Feel Like Home.
+              Premium PVC Doors &amp; Furniture for Your Home.
             </h1>
 
             {/* Supporting copy */}
             <p className="text-base sm:text-lg text-[#57534E] leading-relaxed max-w-2xl">
-              Explore quality furniture and stylish door solutions designed to bring comfort, character and lasting value to your home.
+              Explore premium PVC doors, wooden door designs and quality furniture crafted to bring comfort, character and lasting value to homes and offices in Bhopal.
             </p>
 
             {/* CTA Buttons */}
@@ -88,7 +88,7 @@ export const Hero: React.FC<HeroProps> = ({
               <div className="relative overflow-hidden rounded-xs border border-[#DDD4C5] bg-[#EFEBE4] shadow-md">
                 <img
                   src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=85"
-                  alt="Satish Furniture showroom interior showcasing living room setup and wooden furniture in Bhopal"
+                  alt="PVC door and furniture showroom in Bhopal — Satish Furniture & Door House, Kolar Road"
                   className="w-full h-[380px] sm:h-[460px] object-cover object-center transition-transform duration-700 hover:scale-102"
                   loading="eager"
                   fetchPriority="high"

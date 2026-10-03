@@ -51,10 +51,10 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onKnowMoreClick }) =
 
             <div className="space-y-4 text-sm sm:text-base text-[#57534E] leading-relaxed">
               <p>
-                {business.name} is a local furniture and door showroom serving customers in Bhopal. The brand focuses on helping customers find furniture and door solutions that fit their homes, style and requirements.
+                {business.name} is a local furniture and door showroom serving customers in Bhopal. The brand focuses on helping customers find PVC doors, wooden door designs and furniture solutions that fit their homes, style and requirements.
               </p>
               <p>
-                Whether you are setting up a newly constructed residence, furnishing an apartment along Kolar Road, or looking for a durable wooden entrance door, our showroom presents options carefully selected for longevity, aesthetic balance, and practical Indian family living.
+                Whether you are setting up a newly constructed residence, looking for a durable PVC door for your home or office, or furnishing an apartment along Kolar Road, our showroom presents options carefully selected for longevity, aesthetic balance, and practical Indian family living.
               </p>
             </div>
 
@@ -66,7 +66,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onKnowMoreClick }) =
               </div>
               <div className="flex items-center gap-2.5">
                 <CheckCircle className="w-4 h-4 text-[#704834] shrink-0" />
-                <span>Extensive selection of solid wood entrance doors and interior panel doors.</span>
+                <span>Extensive selection of PVC doors, wooden entrance doors and interior panel doors.</span>
               </div>
               <div className="flex items-center gap-2.5">
                 <CheckCircle className="w-4 h-4 text-[#704834] shrink-0" />

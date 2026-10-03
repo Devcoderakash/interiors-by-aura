@@ -41,7 +41,7 @@ export const business: BusinessConfig = {
   whatsapp: "919755991010",
   whatsappDisplay: "+91 97559 91010",
   email: "contact@satishfurniture.com",
-  siteUrl: "https://satishfurniture.com",
+  siteUrl: "https://pvcdoor.shop",
   mapsUrl: "https://www.google.com/maps/place/Satish+furniture+and+door+house/@23.1627446,77.4022272,17z/data=!3m1!4b1!4m6!3m5!1s0x397c43006b5a144f:0x8df221123acd1b1d!8m2!3d23.1627397!4d77.4048021!16s%2Fg%2F11z8pgx0sv?entry=ttu",
   mapsEmbedQuery: "23.1627397,77.4048021+(Satish+furniture+and+door+house)",
   openingHours: "Monday – Sunday: 10:00 AM – 9:00 PM (Showroom Open All Days)",

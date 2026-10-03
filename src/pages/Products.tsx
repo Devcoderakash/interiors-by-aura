@@ -47,15 +47,19 @@ export const Products: React.FC<ProductsPageProps> = ({ initialCategory = 'All' 
         <div className="border-b border-[#E8E1D5] pb-8 mb-10 space-y-3">
           <div className="inline-flex items-center gap-2 text-xs uppercase tracking-[0.2em] font-semibold text-[#704834]">
             <Sparkles className="w-3.5 h-3.5 text-[#9B5D43]" />
-            <span>Showroom Catalogue & Custom Builds</span>
+            <span>{selectedCategory === 'Doors' ? 'PVC Doors & Wooden Door Designs' : 'Showroom Catalogue & Custom Builds'}</span>
           </div>
 
           <h1 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-[#1C1917] tracking-tight">
-            Furniture & Door Collection
+            {selectedCategory === 'Doors'
+              ? 'PVC Doors & Wooden Door Designs in Bhopal'
+              : 'Furniture & Door Collection'}
           </h1>
 
           <p className="text-sm sm:text-base text-[#57534E] max-w-2xl leading-relaxed">
-            Browse contemporary and solid wood designs available at Satish Furniture & Door House. Sizing, polish shades, and fabric choices can be customized to your floor plan.
+            {selectedCategory === 'Doors'
+              ? 'Explore our range of PVC doors, wooden entrance doors and interior door designs. Custom PVC door sizes available for homes and offices in Bhopal.'
+              : 'Browse contemporary and solid wood designs available at Satish Furniture & Door House. Sizing, polish shades, and fabric choices can be customized to your floor plan.'}
           </p>
         </div>
 
@@ -139,10 +143,10 @@ export const Products: React.FC<ProductsPageProps> = ({ initialCategory = 'All' 
         <div className="mt-14 bg-[#F4EFE7] border border-[#DDD4C5] p-6 sm:p-8 rounded-xs flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="space-y-1 text-center md:text-left">
             <h3 className="font-serif text-xl font-bold text-[#1C1917]">
-              Need a specific size or custom door profile?
+              Need a custom PVC door size or specific door profile?
             </h3>
             <p className="text-xs sm:text-sm text-[#57534E]">
-              Share your room dimensions or door opening measurements on WhatsApp to receive tailored options.
+              Share your door opening measurements or room dimensions on WhatsApp to receive tailored PVC door and furniture options.
             </p>
           </div>
 
