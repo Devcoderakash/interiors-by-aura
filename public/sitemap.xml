@@ -1,39 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   <url>
-    <loc>https://satish-furniture.web.app/</loc>
-    <lastmod>2024-01-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <loc>https://pvcdoor.shop/</loc>
   </url>
+
   <url>
-    <loc>https://satish-furniture.web.app/products</loc>
-    <lastmod>2024-01-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://pvcdoor.shop/products</loc>
   </url>
+
   <url>
-    <loc>https://satish-furniture.web.app/doors</loc>
-    <lastmod>2024-01-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://pvcdoor.shop/doors</loc>
   </url>
+
   <url>
-    <loc>https://satish-furniture.web.app/gallery</loc>
-    <lastmod>2024-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://pvcdoor.shop/gallery</loc>
   </url>
+
   <url>
-    <loc>https://satish-furniture.web.app/about</loc>
-    <lastmod>2024-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://pvcdoor.shop/about</loc>
   </url>
+
   <url>
-    <loc>https://satish-furniture.web.app/contact</loc>
-    <lastmod>2024-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <loc>https://pvcdoor.shop/contact</loc>
   </url>
+
 </urlset>
